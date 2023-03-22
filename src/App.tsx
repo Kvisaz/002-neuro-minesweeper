@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {MineSweeperGpt401} from './features/MineSweeperGpt4_01';
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
                 <li>... second test failed</li>
                 <li>... third test</li>
             </ol>
+            <MineSweeperGpt401 />
         </div>
     );
 }

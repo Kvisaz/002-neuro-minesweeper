@@ -1,0 +1,22 @@
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    user-select: none;
+}
+
+.cell.revealed {
+    background-color: #e0e0e0;
+}
+
+.cell.revealed.flagged {
+    background-color: #e0e0e0;
+}
+
+.cell.flagged::before {
+    content: "🚩";
+}
