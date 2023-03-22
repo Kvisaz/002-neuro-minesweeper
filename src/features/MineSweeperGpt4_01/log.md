@@ -14,7 +14,7 @@ Think like high quality React TypeScript senior from Facebook.
 - if component need a lot of code - split it, imagine functions/components names and use them in code, make short name list for these parts after code
 - dont explain too much - lets code speak
 
-GPT-4:
+**GPT-4:**
 Here is a minimalistic, readable, and high-quality TypeScript React code for the MineSweeper game:
 
 Interfaces:
@@ -140,16 +140,17 @@ createBoard: Function to
 
 
 **Me:** 
-
 go on
+
+**GPT-4:**
 create a new game board with mines placed randomly.
 
 revealCell: Function to reveal a cell and update the game board.
 toggleFlag: Function to toggle a flag on a cell and update the game board.
 Now, let's implement the helper functions in the utils.ts file:
 
-typescript
-Copy code
+```typescript
+
 // utils.ts
 import { Board, Cell, GameStatus } from "./MineSweeper";
 
@@ -236,13 +237,14 @@ return count;
 const revealEmptyCells = (board: Board, x: number, y: number): void => {
 const directions = [
 [-1, -1], [-1, 0], [-1, 1], [0, -1], [0, 1], [1, -
-
+```
 
 
 **Me:**
 go on since revealEmptyCells
 
-**GPT4:**
+**GPT4:** (lost formatting)
+
 1], [1, 0], [1, 1],
 ];
 
